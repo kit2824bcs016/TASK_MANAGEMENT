@@ -1,0 +1,58 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "User profile information stored in Firestore",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string", "description": "Firebase Authentication UID" },
+        "displayName": { "type": "string", "maxLength": 100, "description": "User display name" },
+        "email": { "type": "string", "maxLength": 254, "description": "User email address" },
+        "createdAt": { "type": "string", "description": "Timestamp ISO string when account was created" },
+        "updatedAt": { "type": "string", "description": "Timestamp ISO string when account was last updated" }
+      },
+      "required": ["uid", "email"]
+    },
+    "Task": {
+      "title": "Task",
+      "description": "Personal task entity",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "description": "Unique task ID" },
+        "userId": { "type": "string", "description": "UID of the task owner" },
+        "title": { "type": "string", "minLength": 1, "maxLength": 120, "description": "Task title" },
+        "description": { "type": "string", "maxLength": 1000, "description": "Detailed task description" },
+        "status": {
+          "type": "string",
+          "enum": ["TODO", "IN_PROGRESS", "COMPLETED"],
+          "description": "Task status"
+        },
+        "priority": {
+          "type": "string",
+          "enum": ["LOW", "MEDIUM", "HIGH"],
+          "description": "Task priority level"
+        },
+        "category": {
+          "type": "string",
+          "enum": ["Personal", "College", "Work", "Health", "Finance", "Other"],
+          "description": "Task category"
+        },
+        "dueDate": { "type": "string", "maxLength": 30, "description": "Task due date formatted as YYYY-MM-DD" },
+        "createdAt": { "type": "string", "description": "ISO timestamp of creation" },
+        "updatedAt": { "type": "string", "description": "ISO timestamp of last update" },
+        "completedAt": { "type": "string", "description": "ISO timestamp of completion or null" }
+      },
+      "required": ["userId", "title", "status", "priority", "category", "dueDate"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "UserProfile",
+      "description": "Stores user profile and account metadata"
+    },
+    "/tasks/{taskId}": {
+      "schema": "Task",
+      "description": "Stores personal tasks scoped to the authenticated user"
+    }
+  }
+}

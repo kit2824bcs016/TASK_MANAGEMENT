@@ -1,0 +1,6 @@
+{
+  "name": "Personal Task Management System",
+  "description": "A clean, reliable, and secure personal task management application for organizing daily and personal activities with authentication, categories, and progress tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
