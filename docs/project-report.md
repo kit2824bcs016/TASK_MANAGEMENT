@@ -10,7 +10,7 @@
 
 **A MINI-PROJECT REPORT**
 
-*Submitted in partial fulfillment for the award of the degree of*
+*Submitted in partial fulfillment of the requirements for the award of the degree of*
 
 **BACHELOR OF ENGINEERING / TECHNOLOGY**  
 in  
@@ -20,12 +20,12 @@ in
 
 **Submitted by:**  
 **ASHIKA**  
-**Register No.: 24BCS016**
+**(Register Number: 24BCS016)**
 
 <br />
 
 **Under the Guidance of:**  
-**Project Coordinator / Faculty Supervisor**
+**Faculty Project Supervisor / Guide**
 
 <br />
 
@@ -39,16 +39,18 @@ in
 
 ## 2. BONAFIDE CERTIFICATE
 
-Certified that this project report entitled **"PERSONAL TASK MANAGEMENT SYSTEM (TASKFLOW)"** is the bonafide work of **ASHIKA (Register No.: 24BCS016)** who carried out the project under our supervision. Certified further that to the best of our knowledge the work reported herein does not form part of any other thesis or dissertation on the basis of which a degree or award was conferred on an earlier occasion on this or any other candidate.
+Certified that this project report titled **"PERSONAL TASK MANAGEMENT SYSTEM (TASKFLOW)"** is the bonafide work of **ASHIKA (Register Number: 24BCS016)**, who carried out the mini-project under my supervision and guidance. 
+
+Certified further that to the best of my knowledge, the work reported herein does not form part of any other project report or dissertation on the basis of which a degree, diploma, or award was conferred on an earlier occasion on this or any other candidate.
 
 <br /><br />
 _____________________________ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _____________________________  
-**SUPERVISOR / GUIDE** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **HEAD OF THE DEPARTMENT**  
+**PROJECT SUPERVISOR / GUIDE** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **HEAD OF THE DEPARTMENT**  
 Department of Computer Science & Engineering &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Department of Computer Science & Engineering  
 
 <br />
 
-Submitted for the University Viva-Voce Examination held on: ___________________
+Submitted for the University Mini-Project Viva-Voce Examination held on: ___________________
 
 <br /><br />
 _____________________________ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _____________________________  
@@ -58,9 +60,9 @@ _____________________________ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n
 
 ## 3. DECLARATION
 
-I, **ASHIKA (Register No.: 24BCS016)**, hereby declare that the project report entitled **"PERSONAL TASK MANAGEMENT SYSTEM (TASKFLOW)"** submitted to the Department of Computer Science and Engineering is a record of original work done by me under the guidance of my project supervisor.
+I, **ASHIKA (Register Number: 24BCS016)**, hereby declare that the mini-project report entitled **"PERSONAL TASK MANAGEMENT SYSTEM (TASKFLOW)"** submitted to the Department of Computer Science and Engineering is an authentic record of independent project work carried out by me under the supervision of my faculty guide.
 
-I further declare that this report has not been submitted previously in part or in full for the award of any degree, diploma, fellowship, or other similar title in this or any other institution or university.
+I also declare that this report has not been submitted previously, in part or in full, to any other university or institution for the award of any degree, diploma, or academic distinction.
 
 <br />
 
@@ -72,27 +74,27 @@ I further declare that this report has not been submitted previously in part or 
 
 ## 4. ACKNOWLEDGEMENT
 
-I express my deepest gratitude to the Almighty for bestowing the strength, perseverance, and knowledge required to bring this project to a successful completion.
+I express my sincere gratitude to the Almighty for giving me the guidance, determination, and wisdom necessary to complete this mini-project successfully.
 
-I express my sincere thanks to the Management and Principal of our institution for providing excellent academic infrastructure, state-of-the-art computational laboratories, and continuous encouragement throughout our course of study.
+I express my heartfelt thanks to the Principal and the College Management for providing the necessary facilities, computing laboratory resources, and academic support throughout my program of study.
 
-I extend my heartfelt gratitude to our **Head of the Department**, Department of Computer Science and Engineering, for their valuable support, administrative facilitation, and scholarly guidance.
+I express my deepest gratitude to our **Head of the Department**, Department of Computer Science and Engineering, for providing continuous encouragement and administrative assistance during the project tenure.
 
-I express my deep sense of gratitude and respect to my **Project Guide and Faculty Coordinator**, whose insightful suggestions, constructive critiques, and meticulous guidance enabled the smooth execution and documentation of this work.
+I am profoundly grateful to my **Project Guide and Faculty Coordinator** for their continuous guidance, constructive suggestions, and valuable reviews that greatly enhanced the quality of this work.
 
-I would also like to acknowledge **Google AI Studio** and Google Cloud Platform for providing the developer environment, rapid prototyping capabilities, and Firebase cloud services that made the architectural design and deployment of this application reliable and seamless.
+I also acknowledge **Google AI Studio** for serving as the primary AI-assisted development and engineering environment. It provided significant support in planning, structuring requirements, prototyping the user interface, and refining project features.
 
-Finally, I express my sincere gratitude to my family and peers for their unfailing encouragement, understanding, and assistance during the course of this project.
+Finally, I express my sincere appreciation to my family and friends for their continuous patience, motivation, and support throughout the development of this project.
 
 ---
 
 ## 5. ABSTRACT
 
-In contemporary academic and daily schedules, students and individuals encounter substantial cognitive friction managing fragmented tasks across notebooks, chat applications, and over-engineered enterprise trackers. This project presents the **Personal Task Management System (TaskFlow)**, a full-stack, single-page web application engineered to facilitate structured task creation, organization, prioritization, deadline surveillance, and progress analysis in a unified personal workspace.
+In contemporary student and personal life, individuals are required to manage multiple daily commitments simultaneously, including college assignments, laboratory examinations, project deadlines, personal errands, and financial dues. Conventional task tracking methods such as paper notes, mobile memo apps, and messaging platforms often lead to disorganization, misplaced information, and missed deadlines. The purpose of the **Personal Task Management System (TaskFlow)** is to provide an intuitive, reliable, and modern web application that enables an individual user to record, categorize, schedule, and track their daily activities in a single, well-structured digital workspace.
 
-The system was architected and developed using **Google AI Studio**, harnessing prompt engineering and developer tooling to generate robust TypeScript architectures, declarative Cloud Firestore database schemas, and zero-trust Attribute-Based Access Control (ABAC) security rules. The application frontend is built with React 19, Vite, and Tailwind CSS v4, while the backend leverages Firebase Authentication and Cloud Firestore for persistent, real-time data synchronization. The system enforces complete multi-tenant tenant isolation, guaranteeing that an individual user can only query, modify, or delete their own task documents. 
+TaskFlow assists users in maintaining control over their schedules through comprehensive task management capabilities. The system allows users to create tasks with clear titles and descriptions, assign urgency levels through high, medium, and low priorities, classify work into sensible categories such as College, Work, Personal, and Health, and designate target deadlines. Users can rapidly locate relevant items using instant full-text search, apply multi-criteria filters, and organize tasks based on due dates and priorities. The application provides an executive dashboard that summarizes overall productivity, presents today’s and upcoming commitments, and illustrates completion progress through clean visual charts.
 
-Key functional modules include complete CRUD operations, multi-attribute composite filtering (status, priority, category, due-date status), real-time search, interactive completion visualization powered by Recharts, and automated due-date status classification. An automated 34-point verification suite validates unit criteria, functional workflows, and security assertions with 100% test pass rate. The resulting system is clean, lightweight, highly responsive, and robust, delivering a practical productivity solution for students and individual users.
+The development of TaskFlow was carried out using **Google AI Studio**, which served as an intelligent engineering platform throughout the project lifecycle. Google AI Studio assisted in project planning, requirement structuring, user interface layout design, component organization, and rapid prototyping. By leveraging modern web standards and reliable cloud persistence, TaskFlow eliminates cognitive clutter, promotes personal accountability, and offers a practical, structured solution for individual task management.
 
 ---
 
@@ -104,842 +106,343 @@ Key functional modules include complete CRUD operations, multi-attribute composi
 4. ACKNOWLEDGEMENT ....................................................................... 4  
 5. ABSTRACT ............................................................................... 5  
 6. TABLE OF CONTENTS ..................................................................... 6  
-7. LIST OF FIGURES ....................................................................... 8  
-8. LIST OF TABLES ......................................................................... 9  
-9. INTRODUCTION ........................................................................... 10  
-   9.1 Background ........................................................................ 10  
-   9.2 Motivation ........................................................................ 10  
-   9.3 Problem Definition ................................................................ 11  
-   9.4 Need for the System ............................................................... 11  
-   9.5 Proposed Solution ................................................................. 12  
-10. OBJECTIVES ........................................................................... 13  
-11. EXISTING SYSTEM ...................................................................... 14  
-    11.1 Existing Approach ............................................................... 14  
-    11.2 Limitations ..................................................................... 14  
-    11.3 Problems Faced .................................................................. 15  
-12. PROPOSED SYSTEM ...................................................................... 16  
-    12.1 Proposed Approach ............................................................... 16  
-    12.2 Key Advantages .................................................................. 16  
-    12.3 Problem Resolution Matrix ....................................................... 17  
-13. SYSTEM REQUIREMENTS ................................................................... 18  
-    13.1 Hardware Requirements ........................................................... 18  
-    13.2 Software Requirements ........................................................... 18  
-    13.3 Development Tools ............................................................... 18  
-    13.4 Technologies and Frameworks ..................................................... 19  
-14. SYSTEM ARCHITECTURE .................................................................. 20  
-    14.1 Layered Architecture Overview ................................................... 20  
-    14.2 End-to-End System Data Flow ..................................................... 21  
-15. MODULE DESCRIPTION ................................................................... 22  
-    15.1 Module 1: User Authentication & Session Security ................................ 22  
-    15.2 Module 2: Task Service & CRUD Management ........................................ 23  
-    15.3 Module 3: Filter, Search & Sorting Engine ....................................... 24  
-    15.4 Module 4: Dashboard Analytics & Metric Computation .............................. 25  
-    15.5 Module 5: User Settings & Account Lifecycle ..................................... 26  
-    15.6 Module 6: System Verification & Viva Demonstrator ............................... 27  
-16. GOOGLE AI STUDIO / DEVELOPMENT WORKFLOW .............................................. 28  
-    16.1 Rationale for Selecting Google AI Studio ........................................ 28  
-    16.2 Prompt Engineering & Iterative Software Engineering ............................. 28  
-    16.3 Architectural Bootstrapping & Security Generation ................................ 29  
-    16.4 Rapid Prototyping & Verification ................................................ 29  
-17. DATABASE DESIGN ...................................................................... 30  
-    17.1 Database Selection .............................................................. 30  
-    17.2 Document Collections and Schemas ................................................ 30  
-    17.3 Relational Ownership Mapping & Firestore Security Rules ......................... 31  
-18. ALGORITHM / WORKFLOW ................................................................. 33  
-    18.1 Task Lifecycle State Transition Algorithm ....................................... 33  
-    18.2 Multi-Filter Composite Query Algorithm .......................................... 34  
-    18.3 Dynamic Metric & Progress Calculation Algorithm ................................. 35  
-19. IMPLEMENTATION ....................................................................... 36  
-    19.1 Frontend State Management & Custom Hooks ........................................ 36  
-    19.2 Defensive Data Validation Layer ................................................. 37  
-    19.3 Firestore Service Layer Integration ............................................. 38  
-20. USER INTERFACE ....................................................................... 40  
-    20.1 Authentication Screens .......................................................... 40  
-    20.2 Executive Dashboard Screen ...................................................... 41  
-    20.3 Tasks Management Workspace ...................................................... 42  
-    20.4 Modal Forms & Confirmation Dialogs .............................................. 43  
-    20.5 System Verification Screen ...................................................... 44  
-21. TESTING .............................................................................. 45  
-    21.1 Testing Methodology ............................................................. 45  
-    21.2 Comprehensive Test Cases Table .................................................. 46  
-    21.3 Security & Zero-Trust Audit ..................................................... 48  
-22. RESULTS AND DISCUSSION ............................................................... 49  
-    22.1 Functional Outcomes ............................................................. 49  
-    22.2 Performance & Responsiveness Analysis ........................................... 49  
-    22.3 Reliability and Usability Findings .............................................. 50  
-23. ADVANTAGES ........................................................................... 51  
-24. LIMITATIONS ............................................................................ 52  
-25. FUTURE ENHANCEMENTS ................................................................... 53  
-26. CONCLUSION ........................................................................... 54  
-27. REFERENCES ........................................................................... 55  
-28. APPENDIX ............................................................................. 56  
-    28.1 Security Rules Specification .................................................... 56  
-    28.2 Sample JSON Document Schema ..................................................... 57
+7. INTRODUCTION ........................................................................... 7  
+8. PROBLEM STATEMENT ..................................................................... 9  
+9. OBJECTIVES ........................................................................... 10  
+10. EXISTING SYSTEM ...................................................................... 11  
+11. PROPOSED SYSTEM ...................................................................... 13  
+12. SCOPE OF THE PROJECT ................................................................. 15  
+13. KEY FEATURES ......................................................................... 16  
+14. SYSTEM WORKING ....................................................................... 18  
+15. TECHNOLOGIES USED .................................................................... 20  
+16. ROLE OF GOOGLE AI STUDIO ............................................................. 21  
+17. ADVANTAGES ........................................................................... 23  
+18. LIMITATIONS .......................................................................... 24  
+19. FUTURE ENHANCEMENTS ................................................................... 25  
+20. RESULTS AND DISCUSSION ............................................................... 26  
+21. CONCLUSION ........................................................................... 27  
+22. REFERENCES ........................................................................... 28
 
 ---
 
-## 7. LIST OF FIGURES
+## 7. INTRODUCTION
 
-- **Figure 14.1**: Multi-Tier System Architecture Diagram
-- **Figure 14.2**: Client-Server Data Flow Pipeline
-- **Figure 18.1**: Task Status Lifecycle State Transition Diagram
-- **Figure 20.1**: User Login and Authentication Screen `[INSERT FIGURE 1: LOGIN PAGE SCREENSHOT]`
-- **Figure 20.2**: User Registration Screen `[INSERT FIGURE 2: REGISTRATION SCREENSHOT]`
-- **Figure 20.3**: Executive Dashboard Overview `[INSERT FIGURE 3: DASHBOARD SCREENSHOT]`
-- **Figure 20.4**: Task Management and Filtering Workspace `[INSERT FIGURE 4: TASKS PAGE SCREENSHOT]`
-- **Figure 20.5**: Task Creation / Editing Modal Form `[INSERT FIGURE 5: TASK MODAL SCREENSHOT]`
-- **Figure 20.6**: Delete Confirmation Guard Dialog `[INSERT FIGURE 6: DELETE CONFIRMATION SCREENSHOT]`
-- **Figure 20.7**: In-App Test Suite and Viva Demonstrator `[INSERT FIGURE 7: VERIFICATION SUITE SCREENSHOT]`
+### 7.1 Background of Task Management
+Task management is the systematic process of planning, prioritizing, tracking, and executing individual activities from inception to successful completion. In academic environments, students must consistently coordinate diverse responsibilities, including lecture preparations, assignment submissions, term assessments, seminar presentations, and personal commitments. Without a dedicated system, maintaining an organized balance across these responsibilities becomes increasingly difficult.
 
----
+### 7.2 Importance of Organizing Personal and Academic Tasks
+Effective task organization directly influences an individual’s academic performance and daily productivity. When tasks are organized systematically:
+- Time is allocated appropriately based on importance rather than urgency.
+- Critical deadlines are anticipated well in advance rather than handled under pressure.
+- Mental stress and cognitive fatigue associated with trying to remember unwritten responsibilities are significantly minimized.
+- A clear sense of accomplishment is maintained as completed activities are tracked and reviewed.
 
-## 8. LIST OF TABLES
+### 7.3 Problems with Traditional Task Management
+Historically, individuals have relied on informal memory aids such as writing on paper sheets, sending reminders to themselves on chat platforms, or using basic phone notes. While easy to start, these traditional techniques quickly deteriorate as the number of tasks increases. Paper notes can be physically damaged, lost, or left behind. Chat messages get buried under ongoing conversations. Basic digital memo apps lack deadline calculations, categorization, and progress summaries.
 
-- **Table 12.1**: Problem-Solution Comparison Matrix
-- **Table 13.1**: Hardware Specifications
-- **Table 13.2**: Software and Framework Specifications
-- **Table 17.1**: `users` Collection Schema
-- **Table 17.2**: `tasks` Collection Schema
-- **Table 21.1**: Formal 34-Case Testing Execution Table
-- **Table 22.1**: System Performance Metrics
+### 7.4 Need for a Digital Task Management System
+A modern digital task management system addresses these shortfalls by centralizing task information in a secure cloud repository accessible through a web browser. It ensures that every activity has a designated deadline, a clear priority level, and an associated category. Furthermore, an automated digital system can calculate real-time progress, highlight overdue activities, and present dynamic summaries that paper or informal notes can never provide.
+
+### 7.5 Overview of TaskFlow
+**TaskFlow** is a modern personal task management application designed specifically for individual users and college students. Developed with the architectural assistance of **Google AI Studio**, TaskFlow provides a clean, distraction-free environment where users can manage their daily schedules. It features secure user authentication, complete task creation and editing tools, dynamic filtering, deadline warnings, and an analytical dashboard that provides immediate insight into overall productivity.
 
 ---
 
-## 9. INTRODUCTION
+## 8. PROBLEM STATEMENT
 
-### 9.1 Background
-Personal task scheduling and time management are critical components of academic excellence and professional competence. In the higher education landscape, undergraduate engineering students must concurrently balance coursework requirements, laboratory programming assignments, preparation for internal and university examinations, extra-curricular commitments, and personal routines. Historically, such commitments were managed with paper agendas or basic mobile note applications. However, modern digital workflows require persistent, real-time synchronization, systematic categorization, and visual progress metrics.
+In academic and personal settings, individuals frequently experience disorganization and stress due to the absence of a unified, reliable tool for tracking daily activities and assignment deadlines. 
 
-### 9.2 Motivation
-The modern student is inundated with information from diverse sources including learning management systems, email accounts, and instant messaging channels. Without a structured, unified repository for tasks, students frequently miss critical deadlines, misjudge assignment priorities, or experience cognitive fatigue attempting to maintain an inventory of unresolved responsibilities. Commercial project management applications, while powerful, are tailored for enterprise teams, featuring sprints, story points, and billable hours that introduce unnecessary clutter for an individual. This disparity motivated the development of a lightweight, dedicated **Personal Task Management System**.
+Existing solutions typically suffer from two extremes: they are either too rudimentary (such as unformatted mobile notes or paper notebooks that lack search, categorization, and deadline warnings), or they are excessively complex (such as enterprise project management software designed for large corporate teams with complicated sprints, billing hours, and heavy workflows). 
 
-### 9.3 Problem Definition
-To design, implement, test, and document a secure, reliable, responsive, and intuitive web application that allows an authenticated individual user to perform complete task lifecycles (creation, retrieval, modification, completion, and deletion), assign categories and priorities, track due-date warnings, and examine live dashboard statistics backed by cloud persistence without exposing private user data to other tenants.
-
-### 9.4 Need for the System
-Traditional ad-hoc task trackers suffer from several fundamental deficiencies:
-1. **Lack of Persistence and Isolation**: Many client-only utilities store tasks in browser `localStorage`, which disappears upon cache clearance and fails to synchronize across user devices.
-2. **Absence of Strict Security**: Applications frequently lack rigorous database-level security rules, rendering user data vulnerable to cross-tenant scraping.
-3. **Overcomplicated Workflows**: Enterprise-grade platforms introduce cognitive friction through steep learning curves, excessive configuration, and distracting team notifications.
-4. **Static Visualizations**: Paper agendas and rudimentary lists do not compute completion rates, upcoming deadlines, or overdue status alerts automatically.
-
-### 9.5 Proposed Solution
-The proposed solution, **TaskFlow**, delivers a single-page application built on React 19, TypeScript, and Google Cloud Firestore. Developed with the architectural support of **Google AI Studio**, the system features a distraction-free interface, declarative schema validation, and server-enforced zero-trust security rules. The system provides real-time updates without manual page refreshes, clear visual distinction between Low, Medium, and High priority items, and immediate mathematical computation of completion percentages.
+Consequently, users regularly miss deadlines, fail to prioritize high-importance commitments, and lack clear visibility over their ongoing and completed work. There is a strong need for a simple, dedicated personal task management web application that is secure, responsive, easy to navigate, and capable of organizing personal and academic tasks in one place.
 
 ---
 
-## 10. OBJECTIVES
+## 9. OBJECTIVES
 
-The technical and functional objectives of this project are:
-1. **Full CRUD Capability**: Implement end-to-end task operations (Create, Read, Update, Delete) with defensive client and server validation.
-2. **Robust Multi-Tenant Security**: Enforce Attribute-Based Access Control (ABAC) in Google Cloud Firestore rules such that User A cannot read, query, update, or delete User B's documents under any circumstances.
-3. **Structured Taxonomy**: Enable multi-category organization (`Personal`, `College`, `Work`, `Health`, `Finance`, `Other`) and urgency prioritization (`LOW`, `MEDIUM`, `HIGH`).
-4. **Dynamic Analytic Dashboard**: Calculate real-time aggregate statistics (Total, To Do, In Progress, Completed, Overdue, and Completion Percentage) derived strictly from live database records without static hardcoding.
-5. **Composite Search and Filter Engine**: Provide multi-criteria filtering enabling combined queries (e.g., *College* + *High Priority* + *In Progress*) alongside case-insensitive full-text search.
-6. **Due-Date Warning System**: Automatically calculate temporal offsets to designate tasks as *Due Today*, *Due Tomorrow*, or *Overdue by X days*.
-7. **Responsive & Accessible Design**: Deliver a clean user interface that gracefully adapts across mobile screens, tablets, and desktop workstations with high-contrast accessibility.
-8. **Verification & Demonstration Suite**: Incorporate an in-app 34-point testing harness allowing comprehensive viva voce demonstrations of unit logic, integration pathways, and security rules.
+The primary objectives of the **Personal Task Management System (TaskFlow)** are:
 
----
-
-## 11. EXISTING SYSTEM
-
-### 11.1 Existing Approach
-The majority of students and professionals currently rely on:
-- Physical paper notebooks, diaries, or adhesive notes.
-- Sending self-addressed messages on chat platforms (e.g., WhatsApp, Telegram).
-- Built-in mobile memo applications lacking cloud database synchronization.
-- Complex enterprise collaboration platforms (e.g., Jira, Trello, ClickUp, Asana).
-
-### 11.2 Limitations
-- **Manual Maintenance**: Paper notes cannot be filtered, sorted, or searched dynamically. They are susceptible to physical damage or misplacement.
-- **Data Leakage Risk**: Chat messages mix personal conversations with critical deadlines, resulting in missed academic submissions.
-- **Enterprise Bloat**: Commercial tools require team workspaces, billable hour tracking, and complex permission hierarchies that overwhelm individual users.
-- **No Progress Telemetry**: Simple checklists cannot visually illustrate completion rates or prioritize urgent items automatically.
-
-### 11.3 Problems Faced
-Users experience missed assignment deadlines, poor time allocation across subject modules, and lack of clarity on completed versus outstanding work. Furthermore, web applications lacking server-side rule enforcement risk data leakage if client-side validation is bypassed.
+1. To design and implement a secure personal web application that allows individual users to maintain their daily tasks in a centralized digital workspace.
+2. To provide complete task lifecycle operations, enabling users to create, view, edit, mark as completed, and safely delete personal tasks.
+3. To enable structured task categorization across relevant domains, such as College, Work, Personal, Health, and Finance.
+4. To implement a priority classification system (High, Medium, and Low) allowing users to easily distinguish between critical and routine tasks.
+5. To incorporate deadline management features that calculate and display visual warnings for tasks that are due today, due tomorrow, or overdue.
+6. To develop multi-criteria search and filtering capabilities that allow users to quickly locate specific tasks based on title, description, priority, category, or status.
+7. To provide an executive dashboard with dynamic charts and progress metrics that reflect overall completion rates without manual calculation.
+8. To ensure complete privacy and data security so that each authenticated user can only view and manage their own private task information.
 
 ---
 
-## 12. PROPOSED SYSTEM
+## 10. EXISTING SYSTEM
 
-### 12.1 Proposed Approach
-The proposed **Personal Task Management System (TaskFlow)** eliminates external bloat by providing a purpose-built individual productivity platform. Developed using **Google AI Studio**, the system implements a modern frontend architecture linked directly to Google Cloud Firestore via the Firebase Web SDK. 
+### 10.1 Existing Approaches
 
-User data is synchronized in real time via Firestore snapshot listeners (`onSnapshot`). Security is guaranteed at the database engine layer via declarative `firestore.rules`. The system incorporates a responsive dashboard featuring Recharts data visualizations and an intelligent filtering system that executes composite queries in sub-millisecond execution times.
+Currently, individuals manage their tasks and schedules using several informal and digital methods:
 
-### 12.2 Key Advantages
-- **Strict Data Ownership**: Every database document contains a `userId` field matching `request.auth.uid`. Cross-user access is mathematically blocked by database engine rules.
-- **Real-Time Data Sync**: Status toggles and task updates reflect instantaneously across open browser sessions without full page reloads.
-- **Clean Academic UI**: Free from distracting advertisements, enterprise complexity, and unnecessary decorative gradients.
-- **Integrated Verification Suite**: Contains an executable test suite directly inside the app for college viva demonstration.
+#### 1. Paper Notes and Physical Diaries
+Many students use paper notebooks, pocket diaries, or sticky notes attached to study desks. While simple and tactile, paper notes are fragile, prone to loss, impossible to search automatically, and completely static.
 
-### 12.3 Problem Resolution Matrix
+#### 2. Mobile Note Applications
+Built-in smartphone memo apps are frequently used to record quick checklists. However, these tools usually present simple unformatted text, lack sorting by due dates or priorities, and do not provide structured productivity summaries.
 
-| Existing System Problem | Proposed System Solution |
+#### 3. Chat Applications
+A common habit among students is sending text notes or assignment reminders to themselves on messaging platforms like WhatsApp or Telegram. These reminders quickly become buried beneath daily conversations and lack dedicated completion states.
+
+#### 4. Basic Reminder Applications
+Standard alarm and reminder apps notify users at specific times but fail to provide structured organization. They treat all reminders equally and do not offer category grouping, priority filtering, or completion analytics.
+
+#### 5. General Enterprise Productivity Applications
+Platforms such as Jira, Asana, and Trello are built for enterprise software engineering teams. They include features like team delegation, sprint cycles, story points, and billable hours, which create unnecessary complexity and cognitive overload for a student simply trying to manage coursework and personal errands.
+
+### 10.2 Limitations of the Existing System
+
+- **Lack of Centralization**: Information is scattered across paper notebooks, messaging chats, and phone memos.
+- **No Search or Filtering**: Users cannot instantly filter for "High Priority College tasks that are currently In Progress".
+- **Absence of Visual Progress**: Existing methods do not display completion percentages or visual breakdowns of completed versus pending work.
+- **Risk of Accidental Loss**: Physical notes are easily misplaced, while local memos can be lost during device resets.
+- **Excessive Complexity in Enterprise Tools**: Complex team management platforms require steep learning curves and extensive setup for personal use.
+
+---
+
+## 11. PROPOSED SYSTEM
+
+### 11.1 Proposed Approach
+The proposed solution, **TaskFlow**, is an intuitive single-page web application engineered to bridge the gap between over-simplified notes and overly complex corporate tools. Developed with the assistance of **Google AI Studio**, TaskFlow focuses purely on personal productivity and academic task tracking.
+
+TaskFlow provides a secure, private environment where every authenticated user manages their own tasks. The interface is clean, modern, and neutral, avoiding unnecessary animations or complicated workflows. All user data is saved persistently in cloud storage, ensuring that tasks are preserved and synchronized in real time whenever changes are made.
+
+### 11.2 Major Modules and Capabilities
+
+- **User Registration and Login**: Secure account creation using email and password or quick Google authentication, guaranteeing private access to individual records.
+- **Task Creation**: A streamlined form allowing users to define a task title, optional description, priority level, category, and due date.
+- **Task Editing**: A reusable edit interface that pre-populates existing information, allowing users to modify deadlines, descriptions, or status as requirements evolve.
+- **Task Deletion**: A safe deletion process guarded by a mandatory confirmation prompt to eliminate accidental loss of data.
+- **Task Completion & Reopening**: A single-click completion toggle that marks tasks as completed and records a completion timestamp, with the flexibility to reopen tasks if necessary.
+- **Priority Classification**: Distinct visual badges for High, Medium, and Low priorities, ensuring urgent deadlines stand out immediately.
+- **Categorization**: Grouping tasks under College, Work, Personal, Health, Finance, and Other for organized segregation.
+- **Due-Date Intelligence**: Automatic calculation of remaining time, tagging tasks as *Due Today*, *Due Tomorrow*, or *Overdue by X days*.
+- **Live Search**: Instant, case-insensitive search across task titles and descriptions.
+- **Multi-Filter Engine**: Combined filtering that allows users to isolate tasks by status, priority, category, and deadline simultaneously.
+- **Executive Dashboard**: An overview page presenting total tasks, pending tasks, in-progress tasks, completed tasks, and overdue tasks.
+- **Progress Tracking**: Dynamic progress bars and visual chart representations that update in real time based on task completions.
+
+---
+
+## 12. SCOPE OF THE PROJECT
+
+The scope of **TaskFlow** is specifically centered on individual user productivity and academic workload organization:
+
+### 1. For College and University Students
+Students can systematically record coursework deadlines, laboratory record submissions, semester project milestones, and examination preparation schedules. Categorizing tasks under "College" and assigning "High Priority" ensures academic obligations are never overlooked.
+
+### 2. For Individual Users
+Individuals can manage personal errands, utility bill payments, wellness routines, and daily domestic activities in the same application, separating them into designated categories like "Finance", "Health", and "Personal".
+
+### 3. For Academic Task Management
+TaskFlow provides clear visibility over which assignments are actively in progress, which are due in the coming days, and which have been completed, supporting effective study planning.
+
+### 4. For Personal Productivity
+By consolidating all tasks in one accessible web application and displaying dynamic completion percentages, TaskFlow encourages personal discipline and reduces procrastination.
+
+*(Note: Multi-user collaborative team boards, employee hierarchies, and commercial payment gateways are outside the scope of this project, ensuring the system remains lightweight and focused on personal productivity.)*
+
+---
+
+## 13. KEY FEATURES
+
+### 1. Secure Authentication & Private User Access
+Each user registers with their credentials and accesses an isolated workspace. No user can view, alter, or delete tasks belonging to another user, ensuring complete confidentiality.
+
+### 2. Streamlined Task Creation & Editing
+Users can quickly record new tasks by specifying the title, detailed notes, priority, category, and target due date. The same consistent form interface allows users to update task details at any time.
+
+### 3. Priority & Category Organization
+Tasks are categorized into meaningful areas such as College, Work, Personal, Health, and Finance. Visual priority tags (High, Medium, Low) allow users to identify critical deadlines at a glance.
+
+### 4. Due-Date Detection & Status Warnings
+The system continuously evaluates due dates against the current date, automatically applying visual labels such as *Due Today*, *Due Tomorrow*, or *Overdue* so users can act promptly.
+
+### 5. Multi-Criteria Search & Filtering
+Users can search for keywords within task titles and descriptions while concurrently filtering by status (To Do, In Progress, Completed), priority level, category, and due date range.
+
+### 6. Interactive Executive Dashboard
+The dashboard summarizes productivity by displaying counters for Total, To Do, In Progress, Completed, and Overdue tasks alongside dedicated lists for today's and upcoming tasks.
+
+### 7. Visual Progress Tracking
+An interactive completion chart visualizes the overall distribution of tasks, displaying real-time completion percentages that update automatically as tasks are finished.
+
+### 8. Protected Task Deletion
+To prevent accidental data loss, tasks cannot be deleted with a single click; users are presented with a confirmation dialog before permanent removal occurs.
+
+---
+
+## 14. SYSTEM WORKING
+
+The overall operational flow of the **Personal Task Management System** follows a straightforward, step-by-step procedure:
+
+```
+[ Step 1: User Login / Authentication ]
+                  ↓
+[ Step 2: Dashboard Overview & Analytics ]
+                  ↓
+[ Step 3: Create / Manage Tasks ]
+                  ↓
+[ Step 4: Assign Priority, Category & Due Date ]
+                  ↓
+[ Step 5: Search, Filter & Track Progress ]
+                  ↓
+[ Step 6: Complete Tasks (Automatic Timestamping) ]
+                  ↓
+[ Step 7: View Updated Completion Statistics ]
+```
+
+### Detailed Operational Steps:
+
+1. **Step 1: User Login**: The user navigates to the application, authenticates using their registered email and password (or instant Google login), and is directed to the protected workspace.
+2. **Step 2: Dashboard Overview**: Upon entering, the user is greeted by the dashboard, which presents aggregate metric cards showing total tasks, pending tasks, in-progress tasks, completed tasks, and overdue warnings.
+3. **Step 3: Create Tasks**: The user opens the task creation modal, enters the task title and optional notes, and selects the appropriate category (e.g., College or Personal).
+4. **Step 4: Set Priority and Due Date**: The user sets the urgency level (High, Medium, or Low) and picks the deadline date using the calendar picker.
+5. **Step 5: Search, Filter, and Monitor**: In the main tasks workspace, the user uses search and drop-down filters to review tasks that require attention today or in the coming week.
+6. **Step 6: Complete Tasks**: When an activity is finished, the user clicks the completion toggle. The task status updates to Completed, and a completion timestamp is recorded automatically.
+7. **Step 7: View Progress Updates**: The system recalculates overall progress, dynamically updating the completion percentage, priority distribution bars, and chart displays.
+
+---
+
+## 15. TECHNOLOGIES USED
+
+The following table summarizes the primary tools, libraries, and cloud services utilized in the development of TaskFlow:
+
+| Technology / Tool | Purpose in the Project |
 |---|---|
-| Unsynchronized, lost notes | Persistent Google Cloud Firestore database storage |
-| Unsecured client-side storage | Zero-trust Firebase Security Rules enforcing UID ownership |
-| Over-complicated enterprise workflows | Streamlined 1-column / 2-column personal task modal forms |
-| Inability to filter complex criteria | Instant composite filtering (Status + Priority + Category + Date) |
-| Lack of visual deadline alerts | Dynamic due-date badges (Due Today, Due Tomorrow, Overdue) |
+| **Google AI Studio** | Primary AI-assisted development platform used for project planning, UI prototyping, and feature development. |
+| **React** | Component-based frontend library used to build a dynamic, responsive single-page user interface. |
+| **TypeScript** | Strongly-typed programming language used with React to ensure code reliability and eliminate runtime type errors. |
+| **Vite** | Modern frontend build tool and local development server providing fast compilation and hot module reloading. |
+| **Tailwind CSS** | Utility-first CSS framework used for clean, modern, responsive styling across mobile, tablet, and desktop viewports. |
+| **Firebase Authentication** | Cloud authentication service providing secure user registration, password management, and session tokens. |
+| **Google Cloud Firestore** | NoSQL cloud database providing persistent data storage and real-time synchronization of task documents. |
+| **Recharts** | Charting library used to render clean, interactive completion progress charts on the dashboard. |
 
 ---
 
-## 13. SYSTEM REQUIREMENTS
+## 16. ROLE OF GOOGLE AI STUDIO
 
-### 13.1 Hardware Requirements
-- **Processor**: Intel Core i3 / AMD Ryzen 3 or higher (or equivalent ARM-based processor).
-- **RAM**: Minimum 4 GB RAM (8 GB recommended for simultaneous development server and browser execution).
-- **Storage**: Minimum 500 MB free hard disk space for Node.js modules and source files.
-- **Network**: Standard broadband Internet connection for Cloud Firestore communication.
+**Google AI Studio** served as the central AI-assisted engineering environment during the conceptualization, architecture design, and implementation of TaskFlow. The platform was utilized across several key stages of the project lifecycle:
 
-### 13.2 Software Requirements
-- **Operating System**: Windows 10/11, macOS 12+, or Linux (Ubuntu 20.04+).
-- **Runtime Environment**: Node.js (v18.0.0 or later, LTS recommended).
-- **Package Manager**: npm (v9.0.0+) or Bun.
-- **Web Browser**: Modern Chromium-based browser (Google Chrome 110+, Microsoft Edge, Brave) or Mozilla Firefox.
+### 1. Project Planning and Architecture Formulation
+Google AI Studio assisted in breaking down the high-level project vision into concrete functional modules. It helped outline the core task lifecycle, identify necessary data attributes (title, description, priority, category, due dates, timestamps), and establish a clean separation of concerns across the project structure.
 
-### 13.3 Development Tools
-- **Primary AI Development Environment**: **Google AI Studio** (used for system prompting, architecture specification, schema drafting, and rules generation).
-- **Code Editor**: Visual Studio Code (VS Code).
-- **Version Control**: Git & GitHub.
-- **Terminal**: Bash / PowerShell.
+### 2. Requirement Understanding and Refinement
+During initial design phases, Google AI Studio helped analyze functional and non-functional requirements. It assisted in translating academic mini-project criteria into practical features such as composite filtering, dynamic percentage calculations, and due-date status warnings.
 
-### 13.4 Technologies and Frameworks
-- **Frontend Framework**: React 19 (Functional components, Hooks, Context API).
-- **Language**: TypeScript 5.8+ (Strict type enforcement).
-- **Build Tool**: Vite 8.3+.
-- **CSS Engine**: Tailwind CSS v4.
-- **Routing**: React Router DOM v7.
-- **Icons**: Lucide React.
-- **Data Visualization**: Recharts.
-- **Backend & Cloud Database**: Google Firebase Authentication & Google Cloud Firestore (Enterprise tier).
+### 3. User Interface Development Assistance
+Google AI Studio provided layout recommendations to ensure the user interface remained clean, professional, and free from visual clutter. It helped guide the responsive design approach, ensuring navigation elements collapse gracefully on mobile devices while maintaining an organized multi-column layout on desktop screens.
+
+### 4. Feature Development and Logic Structuring
+The platform aided in structuring reusable frontend components (such as modal forms, confirmation dialogs, status badges, and metric cards) and designing the service functions responsible for communicating with cloud database collections.
+
+### 5. Debugging and Error Handling Assistance
+When developing authentication and database interactions, Google AI Studio assisted in establishing centralized error translation mechanisms. This ensured that cryptic cloud service error codes (such as network timeouts or configuration warnings) were translated into clear, friendly guidance for the user.
+
+### 6. Testing and Rapid Prototyping
+Google AI Studio enabled rapid iterative prototyping, allowing changes to be verified quickly. It also assisted in structuring the comprehensive 34-point verification suite used during project demonstration and viva voce evaluation.
 
 ---
 
-## 14. SYSTEM ARCHITECTURE
+## 17. ADVANTAGES
 
-### 14.1 Layered Architecture Overview
-The system follows a modular 4-tier architectural design ensuring separation of concerns:
+1. **Simple and Focused User Interface**: Designed specifically for personal task management, avoiding the overwhelming complexity of enterprise tools.
+2. **Persistent Cloud Storage**: Tasks are saved securely in Google Cloud Firestore, ensuring records are preserved safely across sessions.
+3. **Strict Data Privacy**: User workspaces are completely isolated, ensuring no user can access or view another user's tasks.
+4. **Clear Prioritization**: Visual color-coded indicators for High, Medium, and Low priorities help users allocate their attention effectively.
+5. **Dynamic Progress Insights**: Automatically computes completion percentages and displays visual progress charts without manual calculation.
+6. **Due-Date Intelligence**: Clearly tags tasks that are due today, due tomorrow, or overdue, helping prevent missed deadlines.
+7. **Fast Composite Filtering**: Allows users to filter tasks simultaneously by status, priority, category, and date range in real time.
+8. **Fully Responsive Design**: Operates seamlessly across mobile smartphones, tablets, laptops, and desktop computers.
+
+---
+
+## 18. LIMITATIONS
+
+While TaskFlow effectively addresses personal task management requirements, the current system has a few realistic limitations:
+
+1. **No Native Background Push Notifications**: The system highlights due-date warnings within the web application interface, but does not yet deliver native operating system push notifications when the browser is closed.
+2. **No File Attachments**: Users can record detailed text descriptions, but cannot currently attach external files such as assignment PDF documents or reference images.
+3. **No Multi-User Collaboration**: The application is strictly designed for individual personal productivity and does not support shared group task boards or peer task delegation.
+
+---
+
+## 19. FUTURE ENHANCEMENTS
+
+To build upon the foundation established in this mini-project, several practical enhancements are proposed for future development:
+
+1. **Web Push Notification Service**: Integrating background web workers to send automated desktop and mobile notifications ahead of scheduled deadlines.
+2. **Recurring Task Schedules**: Enabling users to configure repeating tasks (daily, weekly, or monthly) for routine academic timetables and bill payments.
+3. **File and Document Attachments**: Adding cloud storage integration so students can attach assignment briefs and study resources directly to task cards.
+4. **Interactive Kanban Board View**: Introducing a drag-and-drop column board (To Do, In Progress, Completed) as an alternative visual display mode.
+5. **Data Export to PDF / CSV**: Providing an export feature allowing students to download and print task completion reports for academic reviews.
+6. **Dedicated Mobile Application**: Packaging the application using responsive mobile wrappers for installation via mobile app stores.
+
+---
+
+## 20. RESULTS AND DISCUSSION
+
+### 20.1 Overall Outcome
+The **Personal Task Management System (TaskFlow)** was successfully designed, developed, and tested. The completed web application provides an organized, reliable, and user-friendly digital environment for planning and managing personal and academic activities.
+
+All core functional requirements were verified to work accurately:
+- Users can register, sign in securely, and manage their profile details.
+- Tasks are created, categorized, assigned priorities, and scheduled with deadlines effortlessly.
+- The single-click completion toggle reliably updates task states and records timestamps.
+- The search bar and multi-filter controls accurately isolate specific tasks in real time.
+- The dashboard immediately recalculates total tasks, pending tasks, in-progress tasks, completed counts, overdue warnings, and completion percentages.
+- The delete confirmation dialog successfully guards against accidental data loss.
+
+### 20.2 User Experience and Interface Flow
+The application delivers a clean, intuitive user experience. The neutral color scheme and typography ensure high readability, while priority badges and deadline warnings provide clear visual cues without cluttering the screen.
 
 ```
-+--------------------------------------------------------------------------+
-|                      PRESENTATION LAYER (React 19)                       |
-|   - Navbar, Sidebar, AppLayout                                           |
-|   - Dashboard Page (StatCards, CompletionChart, PriorityDistribution)    |
-|   - Tasks Workspace (TaskFilterBar, TaskCard, TaskEmptyState)            |
-|   - Modal Layer (TaskFormModal, ConfirmDialog)                           |
-+------------------------------------+-------------------------------------+
-                                     |
-+------------------------------------v-------------------------------------+
-|                      APPLICATION HOOKS & CONTEXT                         |
-|   - AuthContext (Current User, Session, Token State)                     |
-|   - useTasks Hook (Real-time snapshot listening, memoized metrics)       |
-|   - Validators (taskValidator.ts, authValidator.ts)                      |
-|   - Date & Statistics Utilities (dateUtils.ts, statsUtils.ts)            |
-+------------------------------------+-------------------------------------+
-                                     |
-+------------------------------------v-------------------------------------+
-|                       CLIENT SERVICE LAYER (TS)                          |
-|   - authService.ts (Registration, Login, Google Sign-in, User Sync)      |
-|   - taskService.ts (CRUD mutations, Defensive limits, Error handler)     |
-|   - Firebase Web SDK v11                                                 |
-+------------------------------------+-------------------------------------+
-                                     |
-+------------------------------------v-------------------------------------+
-|                    CLOUD BACKEND & SECURITY ENGINE                       |
-|   - Firebase Authentication (OAuth token management, Password hashing)   |
-|   - Google Cloud Firestore (Document Collections: users, tasks)          |
-|   - Declarative firestore.rules (Zero-Trust ABAC Ownership Engine)       |
-+--------------------------------------------------------------------------+
+[INSERT SCREENSHOT: LOGIN PAGE]
+Figure 20.1: User login and authentication interface.
 ```
 
-### 14.2 End-to-End System Data Flow
-1. **Authentication Flow**: The user signs in via email/password or Google federated authentication. Firebase Authentication validates credentials and issues a JSON Web Token (JWT).
-2. **Context Initialization**: `onAuthStateChanged` in `AuthContext` triggers, loading the user profile and setting global session state.
-3. **Task Subscription**: The `useTasks` hook executes `onSnapshot` on Firestore `tasks`, constrained by `where("userId", "==", user.uid)`.
-4. **Security Evaluation**: Google Cloud Firestore evaluates `firestore.rules`. Because the query matches `resource.data.userId == request.auth.uid`, the request is granted.
-5. **Dynamic Processing**: Incoming documents are processed through `calculateDashboardStats` and `filterAndSortTasks` via React `useMemo` hooks.
-6. **Reactive Rendering**: The UI displays updated task cards, completion percentages, and warning badges without page reloads.
+```
+[INSERT SCREENSHOT: DASHBOARD]
+Figure 20.2: Executive dashboard displaying productivity metrics and charts.
+```
 
----
+```
+[INSERT SCREENSHOT: TASK CREATION PAGE]
+Figure 20.3: Task creation modal form with category and priority selection.
+```
 
-## 15. MODULE DESCRIPTION
+```
+[INSERT SCREENSHOT: TASK MANAGEMENT PAGE]
+Figure 20.4: Main tasks workspace featuring search, filters, and task cards.
+```
 
-### 15.1 Module 1: User Authentication & Session Security
-- **Purpose**: Controls user onboarding, authentication, session maintenance, and protected routing.
-- **Input**: User credentials (email, password, full name) or Google OAuth popup authentication.
-- **Processing**: Inputs are checked against `validateRegistrationForm` or `validateLoginForm`. The service invokes Firebase Auth methods (`createUserWithEmailAndPassword`, `signInWithEmailAndPassword`, `signInWithPopup`). Upon authentication, `syncUserProfile` records the user metadata in the `users` collection.
-- **Output**: Authenticated user session with secure token and redirection to `/dashboard`.
-- **Technologies Used**: Firebase Authentication, React Context API, React Router DOM.
-
-### 15.2 Module 2: Task Service & CRUD Management
-- **Purpose**: Implements core lifecycle operations for personal tasks.
-- **Input**: Task title, description, priority (`LOW`, `MEDIUM`, `HIGH`), category (`Personal`, `College`, `Work`, `Health`, `Finance`, `Other`), and due date (`YYYY-MM-DD`).
-- **Processing**: 
-  - *Create*: Validates limits defensively and writes to `tasks/{taskId}` with server timestamps.
-  - *Read*: Subscribes to document snapshots.
-  - *Update*: Modifies mutable fields and updates `updatedAt`.
-  - *Toggle Status*: Reverses status between `TODO`/`IN_PROGRESS` and `COMPLETED`. When completed, sets `completedAt` to current ISO timestamp; when reopened, resets `completedAt` to null.
-  - *Delete*: Prompts user confirmation via `ConfirmDialog`, then executes `deleteDoc`.
-- **Output**: Real-time database mutation reflected instantaneously across UI.
-- **Technologies Used**: Google Cloud Firestore, TypeScript, Custom Hooks.
-
-### 15.3 Module 3: Filter, Search & Sorting Engine
-- **Purpose**: Provides instantaneous multi-attribute task querying.
-- **Input**: Search string, status filter, priority filter, category filter, due-date filter, sort field, sort direction (`asc`/`desc`).
-- **Processing**: Evaluates tasks using case-insensitive substring checks on `title` and `description`. Filters are evaluated conjunctively (Boolean AND). Sorter organizes items by due date, priority rank weight, title, or timestamps.
-- **Output**: Filtered, ordered array of tasks rendered dynamically in the UI.
-- **Technologies Used**: JavaScript Array Methods, React `useMemo`.
-
-### 15.4 Module 4: Dashboard Analytics & Metric Computation
-- **Purpose**: Derives quantitative productivity insights from raw task data.
-- **Input**: Array of user tasks.
-- **Processing**: Aggregates total tasks, pending tasks, in-progress tasks, completed tasks, and overdue tasks. Calculates completion rate: `(completedTasks / totalTasks) * 100`. Isolates items due on the current calendar date (`Today's Tasks`) and items due in future dates (`Upcoming Tasks`).
-- **Output**: Executive cards, Recharts Donut progress chart, and priority distribution progress bars.
-- **Technologies Used**: Recharts, Lucide React, Custom Math Utilities.
-
-### 15.5 Module 5: User Settings & Account Lifecycle
-- **Purpose**: Enables display name changes, session termination, and secure account deletion.
-- **Input**: New display name or account termination request.
-- **Processing**: Updates profile document in Firestore. If account deletion is confirmed, executes a batch delete across all user tasks in `tasks`, deletes the `users/{userId}` profile document, and deletes the authentication record via `deleteUser()`.
-- **Output**: Updated user profile or clean session termination.
-- **Technologies Used**: Firestore Batch Writes, Firebase Auth.
-
-### 15.6 Module 6: System Verification & Viva Demonstrator
-- **Purpose**: Executes an automated 34-point test suite inside the application.
-- **Input**: User trigger ("Re-run Test Suite" button).
-- **Processing**: Iterates through 34 formal unit, integration, and security assertions, benchmarking execution times and evaluating pass/fail status.
-- **Output**: Interactive scorecards, filterable test tables, and database security confirmation.
-- **Technologies Used**: TypeScript Unit Runner, React State.
-
----
-
-## 16. GOOGLE AI STUDIO / DEVELOPMENT WORKFLOW
-
-### 16.1 Rationale for Selecting Google AI Studio
-**Google AI Studio** was selected as the core development environment because it provides advanced reasoning, rapid architectural scaffolding, and direct integration with Google Cloud Platform services. Unlike isolated code generators, Google AI Studio facilitated an end-to-end engineering workflow:
-1. Translating natural language project requirements into production-ready software specifications.
-2. Generating secure, hardened Cloud Firestore ABAC security rules.
-3. Automatically provisioning the Firebase backend and initializing the database connection.
-4. Ensuring strict adherence to TypeScript interfaces and modern React 19 standards.
-
-### 16.2 Prompt Engineering & Iterative Software Engineering
-The development followed a prompt-driven engineering methodology:
-- **Architectural Prompting**: Formulating explicit system constraints (e.g., zero-trust rules, dynamic mathematical metrics, modular folder separation).
-- **Defensive Constraints**: Directing the model to inject input length boundaries (`maxLength: 120` for titles, `1000` for descriptions) simultaneously into frontend validators and backend security rules.
-- **Error Mapping Prompting**: Specifying exact user-friendly translations for cryptic Firebase error codes (e.g., translating `auth/operation-not-allowed` into actionable guidance).
-
-### 16.3 Architectural Bootstrapping & Security Generation
-Through Google AI Studio, intermediate representations (`firebase-blueprint.json`) were synthesized to separate abstract data shapes from physical Firestore collections. This enabled the synthesis of mathematically sound security rules that deny blanket reads, prevent orphan document creation, and eliminate privilege escalation vulnerabilities.
-
-### 16.4 Rapid Prototyping & Verification
-Google AI Studio's integrated compilation toolchain allowed immediate execution of `compile_applet` and `lint_applet` commands, verifying type safety and eliminating runtime syntax errors before deployment.
-
----
-
-## 17. DATABASE DESIGN
-
-### 17.1 Database Selection
-Google Cloud Firestore was chosen over traditional relational databases (MySQL, PostgreSQL) due to:
-- Document-based NoSQL data modeling naturally fitting JSON-like task entities.
-- Low-latency real-time synchronization via WebSockets (`onSnapshot`).
-- Built-in multi-region cloud resilience and serverless scaling.
-- Declarative security rules enforced directly at the storage engine level.
-
-### 17.2 Document Collections and Schemas
-
-#### Collection 1: `users`
-- **Path**: `/users/{userId}`
-- **Primary Key**: `userId` (matches Firebase Auth UID)
-
-| Field Name | Data Type | Constraint | Description |
-|---|---|---|---|
-| `uid` | String | Required | Firebase Authentication unique ID |
-| `displayName` | String | Max 100 chars | User's preferred display name |
-| `email` | String | Max 254 chars | Registered email address |
-| `createdAt` | String | ISO 8601 | Account creation timestamp |
-| `updatedAt` | String | ISO 8601 | Profile last update timestamp |
-
-#### Collection 2: `tasks`
-- **Path**: `/tasks/{taskId}`
-- **Primary Key**: `taskId` (Auto-generated Firestore document ID)
-
-| Field Name | Data Type | Constraint | Description |
-|---|---|---|---|
-| `id` | String | Required | Unique document identifier |
-| `userId` | String | Required | Foreign key reference to owner's `uid` |
-| `title` | String | 1–120 chars | Name of the task |
-| `description` | String | Max 1000 chars | Optional detailed notes |
-| `status` | String | Enum | `'TODO'`, `'IN_PROGRESS'`, `'COMPLETED'` |
-| `priority` | String | Enum | `'LOW'`, `'MEDIUM'`, `'HIGH'` |
-| `category` | String | Enum | `'Personal'`, `'College'`, `'Work'`, etc. |
-| `dueDate` | String | YYYY-MM-DD | Target completion date |
-| `createdAt` | String | ISO 8601 | Record creation timestamp |
-| `updatedAt` | String | ISO 8601 | Record last update timestamp |
-| `completedAt` | String / Null | ISO 8601 | Timestamp when completed; null otherwise |
-
-### 17.3 Relational Ownership Mapping & Firestore Security Rules
-Ownership is strictly validated by the Firestore rules engine:
-```javascript
-rules_version = '2';
-service cloud.firestore {
-  match /databases/{database}/documents {
-    match /{document=**} {
-      allow read, write: if false; // Default Deny
-    }
-
-    function isSignedIn() { return request.auth != null; }
-
-    match /tasks/{taskId} {
-      allow get: if isSignedIn() && resource.data.userId == request.auth.uid;
-      allow list: if isSignedIn() && resource.data.userId == request.auth.uid;
-      allow create: if isSignedIn() && request.resource.data.userId == request.auth.uid;
-      allow update: if isSignedIn() && resource.data.userId == request.auth.uid;
-      allow delete: if isSignedIn() && resource.data.userId == request.auth.uid;
-    }
-  }
-}
+```
+[INSERT SCREENSHOT: TASK COMPLETION / PROGRESS PAGE]
+Figure 20.5: Task completion interaction and updated progress analytics.
 ```
 
 ---
 
-## 18. ALGORITHM / WORKFLOW
+## 21. CONCLUSION
 
-### 18.1 Task Lifecycle State Transition Algorithm
-```
-ALGORITHM: TaskLifecycleManagement
-INPUT: Task Details (Title, Description, Priority, Category, DueDate)
-OUTPUT: Synchronized Firestore Task Document
+In modern academic life, maintaining an organized record of assignments, examinations, and personal commitments is essential for productivity and stress reduction. Traditional tracking mechanisms such as unformatted mobile notes and physical paper checklists lack search capabilities, deadline calculations, and visual progress tracking, while enterprise collaboration tools introduce excessive complexity.
 
-1. User submits task creation form.
-2. Validate inputs:
-   IF Title.length < 2 OR Title.length > 120 THEN Return ValidationError.
-   IF DueDate != ValidDateFormat(YYYY-MM-DD) THEN Return ValidationError.
-3. Retrieve CurrentUser.UID from AuthContext.
-4. Construct Task Object:
-   Task.userId = CurrentUser.UID
-   Task.status = "TODO"
-   Task.completedAt = NULL
-   Task.createdAt = CurrentTimestamp()
-5. Transmit Task Object to Firestore collection "tasks".
-6. WHEN User toggles completion on Task:
-   IF Task.status == "COMPLETED" THEN
-      Task.status = "TODO"
-      Task.completedAt = NULL
-   ELSE
-      Task.status = "COMPLETED"
-      Task.completedAt = CurrentTimestamp()
-   END IF
-   Update Firestore document via updateDoc().
-7. Re-calculate metrics and update user interface.
-```
+To solve this problem, the **Personal Task Management System (TaskFlow)** was developed as a clean, responsive, and secure web application. Developed with the architectural assistance of **Google AI Studio**, TaskFlow provides a streamlined digital workspace where users can create tasks, assign sensible categories, set urgency priorities, monitor deadlines, and evaluate their productivity through an executive dashboard.
 
-### 18.2 Multi-Filter Composite Query Algorithm
-```
-ALGORITHM: CompositeTaskFilter
-INPUT: TaskList T[], FilterCriteria F(query, status, priority, category, dateFilter)
-OUTPUT: FilteredList R[]
-
-1. R = Empty List
-2. Normalize SearchQuery = Lowercase(Trim(F.query))
-3. FOR EACH task t IN T[] DO:
-      // Condition 1: Full-Text Substring Match
-      IF SearchQuery != "" AND NOT (Lowercase(t.title).contains(SearchQuery) 
-         OR Lowercase(t.description).contains(SearchQuery)) THEN
-         CONTINUE to next task
-      END IF
-      
-      // Condition 2: Status Equality
-      IF F.status != "ALL" AND t.status != F.status THEN
-         CONTINUE to next task
-      END IF
-      
-      // Condition 3: Priority Equality
-      IF F.priority != "ALL" AND t.priority != F.priority THEN
-         CONTINUE to next task
-      END IF
-      
-      // Condition 4: Category Equality
-      IF F.category != "ALL" AND t.category != F.category THEN
-         CONTINUE to next task
-      END IF
-      
-      // Condition 5: Date Classification Match
-      IF F.dateFilter == "TODAY" AND t.dueDate != CurrentDate() THEN
-         CONTINUE to next task
-      ELSE IF F.dateFilter == "OVERDUE" AND (t.dueDate >= CurrentDate() OR t.status == "COMPLETED") THEN
-         CONTINUE to next task
-      ELSE IF F.dateFilter == "UPCOMING" AND t.dueDate <= CurrentDate() THEN
-         CONTINUE to next task
-      END IF
-      
-      APPEND t to R
-   END FOR
-4. Sort R according to F.sortBy and F.sortOrder.
-5. RETURN R.
-```
-
-### 18.3 Dynamic Metric & Progress Calculation Algorithm
-```
-ALGORITHM: CalculateDashboardMetrics
-INPUT: TaskList T[]
-OUTPUT: MetricObject M
-
-1. Set Total = Length(T)
-2. Set Pending = 0, InProgress = 0, Completed = 0, Overdue = 0
-3. FOR EACH task t IN T DO:
-      IF t.status == "TODO" THEN Pending = Pending + 1
-      ELSE IF t.status == "IN_PROGRESS" THEN InProgress = InProgress + 1
-      ELSE IF t.status == "COMPLETED" THEN Completed = Completed + 1
-      
-      IF t.dueDate < CurrentDate() AND t.status != "COMPLETED" THEN
-         Overdue = Overdue + 1
-      END IF
-   END FOR
-4. IF Total > 0 THEN
-      CompletionPercentage = Round((Completed / Total) * 100)
-   ELSE
-      CompletionPercentage = 0
-   END IF
-5. Construct and return M containing Total, Pending, InProgress, Completed, Overdue, and CompletionPercentage.
-```
+The application successfully fulfills all project objectives by delivering reliable cloud data persistence, strict user privacy, real-time metric calculations, and an accessible user interface. TaskFlow stands as a practical, easy-to-use productivity tool for college students and individual users, demonstrating the effective application of modern web technologies and AI-assisted development.
 
 ---
 
-## 19. IMPLEMENTATION
+## 22. REFERENCES
 
-### 19.1 Frontend State Management & Custom Hooks
-The application manages global state using React Context (`AuthContext.tsx`) and isolates local data subscriptions in custom hooks (`useTasks.ts`). This guarantees that components only re-render when relevant state changes:
-
-```typescript
-// Excerpt from src/hooks/useTasks.ts
-export function useTasks() {
-  const { user } = useAuth();
-  const [tasks, setTasks] = useState<Task[]>([]);
-  const [loading, setLoading] = useState<boolean>(true);
-
-  useEffect(() => {
-    if (!user) { setTasks([]); setLoading(false); return; }
-    const unsubscribe = subscribeToUserTasks(
-      user.uid,
-      (fetched) => { setTasks(fetched); setLoading(false); },
-      (err) => { console.error(err); setLoading(false); }
-    );
-    return () => unsubscribe();
-  }, [user]);
-
-  const stats = useMemo(() => calculateDashboardStats(tasks), [tasks]);
-  return { tasks, stats, loading };
-}
-```
-
-### 19.2 Defensive Data Validation Layer
-Before any write operation is dispatched to the network, `validateTask` scrutinizes the payload to prevent malformed data writes:
-
-```typescript
-// Excerpt from src/validators/taskValidator.ts
-export function validateTask(data: Partial<TaskFormData>): ValidationResult {
-  const errors: Record<string, string> = {};
-  const title = (data.title || '').trim();
-
-  if (!title) {
-    errors.title = 'Task title is required.';
-  } else if (title.length < 2) {
-    errors.title = 'Task title must be at least 2 characters.';
-  } else if (title.length > 120) {
-    errors.title = 'Task title must not exceed 120 characters.';
-  }
-  // Validates priorities, categories, and date format YYYY-MM-DD
-  return { isValid: Object.keys(errors).length === 0, errors };
-}
-```
-
-### 19.3 Firestore Service Layer Integration
-Mutations are decoupled from UI components into `taskService.ts`:
-
-```typescript
-// Excerpt from src/services/tasks/taskService.ts
-export async function createTask(formData: TaskFormData): Promise<Task> {
-  const user = auth.currentUser;
-  if (!user) throw new Error('Authentication required.');
-
-  const validation = validateTask(formData);
-  if (!validation.isValid) throw new Error(Object.values(validation.errors)[0]);
-
-  const taskDocRef = doc(collection(db, 'tasks'));
-  const now = new Date().toISOString();
-  const newTask: Task = {
-    id: taskDocRef.id,
-    userId: user.uid,
-    title: formData.title.trim(),
-    description: formData.description?.trim() || '',
-    status: formData.status || 'TODO',
-    priority: formData.priority,
-    category: formData.category,
-    dueDate: formData.dueDate,
-    createdAt: now,
-    updatedAt: now,
-    completedAt: null,
-  };
-  await setDoc(taskDocRef, newTask);
-  return newTask;
-}
-```
-
----
-
-## 20. USER INTERFACE
-
-### 20.1 Authentication Screens
-The login and registration interfaces feature clean input cards with clear contrast, password visibility toggles, and dual sign-in pathways (Email/Password and 1-Click Google Sign-In).
-
-```
-[INSERT FIGURE 1: LOGIN PAGE SCREENSHOT]
-Figure 20.1: Login interface featuring Email/Password and 1-Click Access options.
-```
-
-```
-[INSERT FIGURE 2: REGISTRATION SCREENSHOT]
-Figure 20.2: Account registration interface with real-time field validation.
-```
-
-### 20.2 Executive Dashboard Screen
-The dashboard presents a welcoming greeting, five executive metric cards (*Total Tasks, To Do, In Progress, Completed, Overdue*), an interactive Recharts completion donut chart, a priority urgency breakdown, and split columns for *Today's Tasks* and *Upcoming Tasks*.
-
-```
-[INSERT FIGURE 3: DASHBOARD SCREENSHOT]
-Figure 20.3: Executive productivity dashboard with live analytics and charts.
-```
-
-### 20.3 Tasks Management Workspace
-The main tasks workspace features an integrated filter bar with a search input, four drop-down filters, sort order controls, dynamic result counters, and structured task cards with color-coded priority ribbons.
-
-```
-[INSERT FIGURE 4: TASKS PAGE SCREENSHOT]
-Figure 20.4: Tasks workspace displaying filtered cards with due-date warnings.
-```
-
-### 20.4 Modal Forms & Confirmation Dialogs
-Task creation and editing are handled through a single reusable modal, minimizing interface complexity. Deletions are guarded by a confirmation dialog to eliminate accidental data loss.
-
-```
-[INSERT FIGURE 5: TASK MODAL SCREENSHOT]
-Figure 20.5: Task creation and editing modal dialog.
-```
-
-```
-[INSERT FIGURE 6: DELETE CONFIRMATION SCREENSHOT]
-Figure 20.6: Defensive confirmation dialog guarding task deletion.
-```
-
-### 20.5 System Verification Screen
-An integrated test suite page displays 34 formal test executions with category tabs, pass counters, and security rules guarantees.
-
-```
-[INSERT FIGURE 7: VERIFICATION SUITE SCREENSHOT]
-Figure 20.7: Interactive test runner and viva demonstration screen.
-```
-
----
-
-## 21. TESTING
-
-### 21.1 Testing Methodology
-The application was evaluated across five testing dimensions:
-1. **Unit Testing**: Evaluating input string validation, date classification logic, and metric mathematical formulas.
-2. **Integration Testing**: Verifying complete cycles between UI components, custom hooks, and Firestore SDK methods.
-3. **Functional Testing**: Verifying filtering permutations, search substrings, and task lifecycle status toggles.
-4. **Security Testing**: Simulating unauthenticated reads and cross-tenant query attempts.
-5. **UI & Responsive Testing**: Benchmarking rendering stability across varying viewport widths (360px to 1920px).
-
-### 21.2 Comprehensive Test Cases Table
-
-| Test ID | Test Scenario | Input Data | Expected Output | Actual Output | Status |
-|---|---|---|---|---|---|
-| **TC-01** | Valid registration | Valid name, email, password | Validation passes; `isValid = true` | `isValid = true` | **PASSED** |
-| **TC-02** | Duplicate email handling | Pre-registered email | Returns friendly error message | "Account exists..." | **PASSED** |
-| **TC-03** | Invalid email detection | `"invalid-email"` | Rejects format with error message | Format error flagged | **PASSED** |
-| **TC-04** | Short password check | `"123"` (< 6 chars) | Rejects password length | Length error flagged | **PASSED** |
-| **TC-05** | Valid login form | Valid email and password | Validation passes | Form accepted | **PASSED** |
-| **TC-06** | Empty login password | Email provided, password empty | Flags password required | Error displayed | **PASSED** |
-| **TC-07** | Password mismatch | Passwords do not match | Flags mismatch error | Error displayed | **PASSED** |
-| **TC-08** | Password reset empty input | Empty email string | Flags email required | Error displayed | **PASSED** |
-| **TC-09** | Valid task creation | Title, Priority, Category, Date | Schema validation succeeds | Task accepted | **PASSED** |
-| **TC-10** | Empty title rejection | Title = `" "` | Rejects empty title | Error displayed | **PASSED** |
-| **TC-11** | Illegal priority rejection | Priority = `"URGENT"` | Rejects invalid enum | Error displayed | **PASSED** |
-| **TC-12** | Illegal status rejection | Status = `"ARCHIVED"` | Rejects invalid status | Error displayed | **PASSED** |
-| **TC-13** | Malformed date check | DueDate = `"2026/13/45"` | Flags invalid date format | Error displayed | **PASSED** |
-| **TC-14** | View tasks retrieval | User tasks query | Returns user task list | 4 tasks returned | **PASSED** |
-| **TC-15** | Task field edit validation | Updated title & category | Validation passes | Edit accepted | **PASSED** |
-| **TC-16** | Deletion confirmation guard | Click delete button | Opens ConfirmDialog | Modal triggered | **PASSED** |
-| **TC-17** | Task completion timestamp | Toggle status to COMPLETED | `completedAt` populated | Timestamp stored | **PASSED** |
-| **TC-18** | Reopen task timestamp reset | Reopen completed task | `completedAt` reset to null | Field cleared | **PASSED** |
-| **TC-19** | Search by task title | Query = `"groceries"` | Returns matching item | 1 item returned | **PASSED** |
-| **TC-20** | Search by description | Query = `"Unit 4"` | Returns matching item | 1 item returned | **PASSED** |
-| **TC-21** | Filter by status | Status = `"COMPLETED"` | Filters completed items | Exact count returned | **PASSED** |
-| **TC-22** | Filter by priority | Priority = `"HIGH"` | Filters high priority items | Exact count returned | **PASSED** |
-| **TC-23** | Filter by category | Category = `"College"` | Filters college tasks | Exact count returned | **PASSED** |
-| **TC-24** | Filter overdue tasks | Filter = `"OVERDUE"` | Identifies expired tasks | Overdue task isolated| **PASSED** |
-| **TC-25** | Combined multi-filter | High + College + In Progress | Isolates intersection | Exact match returned | **PASSED** |
-| **TC-26** | Total task count metric | 4 task objects | `totalTasks = 4` | 4 calculated | **PASSED** |
-| **TC-27** | Completed count metric | 1 completed object | `completedTasks = 1` | 1 calculated | **PASSED** |
-| **TC-28** | Pending count metric | 2 todo objects | `pendingTasks = 2` | 2 calculated | **PASSED** |
-| **TC-29** | Completion percentage | 1 out of 4 tasks | `completionPercentage = 25%` | 25% calculated | **PASSED** |
-| **TC-30** | Overdue count metric | 1 overdue object | `overdueTasks = 1` | 1 calculated | **PASSED** |
-| **TC-31** | Unauthenticated task access | Read without auth token | Rejected by Firestore rules | PERMISSION_DENIED | **PASSED** |
-| **TC-32** | Cross-tenant read access | User A reads User B task | Rejected by Firestore rules | PERMISSION_DENIED | **PASSED** |
-| **TC-33** | Cross-tenant update access | User A updates User B task | Rejected by Firestore rules | PERMISSION_DENIED | **PASSED** |
-| **TC-34** | Cross-tenant delete access | User A deletes User B task | Rejected by Firestore rules | PERMISSION_DENIED | **PASSED** |
-
-### 21.3 Security & Zero-Trust Audit
-All 34 test scenarios completed with a **100% success rate**. Security rules were confirmed to terminate unauthorized API calls at the database engine, ensuring full multi-tenant isolation.
-
----
-
-## 22. RESULTS AND DISCUSSION
-
-### 22.1 Functional Outcomes
-The Personal Task Management System successfully met all functional benchmarks:
-- Instant real-time task creation, editing, and status toggling without page reloading.
-- Zero data loss or state desynchronization across browser sessions.
-- Dynamic mathematical metric updates accurately reflecting database changes.
-- Seamless navigation between the Dashboard, Task Workspace, Settings, and System Verification screens.
-
-### 22.2 Performance & Responsiveness Analysis
-The lightweight architecture of Vite and Tailwind CSS v4 achieved optimal operational efficiency:
-
-| Metric | Measured Value | Standard Benchmark |
-|---|---|---|
-| Initial Page Load (DOM Ready) | 0.32 seconds | < 1.5 seconds |
-| Client-Side Route Transition | < 50 milliseconds | < 100 milliseconds |
-| Firestore Query Latency (Cached) | ~15 milliseconds | < 50 milliseconds |
-| Firestore Mutation Latency | ~180 milliseconds | < 500 milliseconds |
-| Client Filter Execution (100 items) | < 2 milliseconds | < 16 milliseconds |
-
-### 22.3 Reliability and Usability Findings
-User feedback confirmed that the clean interface, clear typography, and color-coded priority ribbons significantly reduced cognitive friction compared to complex enterprise alternatives.
-
----
-
-## 23. ADVANTAGES
-
-1. **Complete Data Privacy**: Zero-trust security rules prevent unauthorized cross-tenant document exposure.
-2. **Instant Synchronization**: Firestore WebSocket subscriptions update task states across multiple windows in real time.
-3. **No Enterprise Clutter**: Focused exclusively on personal task management without unnecessary team hierarchies.
-4. **Lightweight & Fast**: Sub-second load times powered by Vite, React 19, and Tailwind CSS.
-5. **Transparent Academic Metrics**: Automatic calculation of completion percentages and due-date alerts.
-6. **Executable Verification**: Integrated in-app test suite enabling transparent demonstration during viva examinations.
-
----
-
-## 24. LIMITATIONS
-
-1. **No Native Offline Push Notifications**: Due-date warnings are displayed within the web interface; push alerts via Background Service Workers are not yet configured.
-2. **Attachment Handling**: Does not currently support file uploads (e.g., assignment PDFs) to maintain lightweight database bounds.
-3. **Single-User Scope**: Intentionally does not support multi-user shared task boards or group collaboration.
-
----
-
-## 25. FUTURE ENHANCEMENTS
-
-1. **Web Push Notification Service**: Implementing the Web Notification API to send background alerts prior to assignment deadlines.
-2. **Recurring Task Automation**: Adding recurrence rules for repeating student routines (daily lecture revisions, weekly club meets).
-3. **Document Attachments via Cloud Storage**: Integrating Google Cloud Storage for uploading syllabus outlines and assignment PDFs.
-4. **Kanban Board Visualization**: Adding an interactive drag-and-drop board view option alongside the existing card list.
-5. **Data Export Utility**: Adding one-click export of task summaries to PDF or CSV spreadsheets for academic portfolios.
-
----
-
-## 26. CONCLUSION
-
-The **Personal Task Management System (TaskFlow)** was successfully conceptualized, architected, developed, and tested as a college mini-project. Developed with the assistance of **Google AI Studio**, the system addresses the common problem of academic and personal task disorganization by providing a clean, responsive single-page application.
-
-By linking React 19 and TypeScript to Google Cloud Firestore and enforcing zero-trust Attribute-Based Access Control security rules, the application guarantees complete tenant data isolation, sub-second query performance, and real-time synchronization. The comprehensive 34-case verification suite confirms 100% software test integrity across unit validation, state mutations, and security rules. TaskFlow serves as a reliable productivity tool for students and a model of modern full-stack web engineering.
-
----
-
-## 27. REFERENCES
-
-1. Google AI Studio Documentation, *"Prompt Engineering and Prototyping with Gemini"*, Google Cloud Platform, 2026. Available: https://ai.google.dev/
-2. Firebase Documentation, *"Cloud Firestore Data Modeling and Security Rules"*, Google LLC, 2026. Available: https://firebase.google.com/docs/firestore
-3. Firebase Authentication, *"Managing Users and Security Tokens in Web Applications"*, Google LLC, 2026. Available: https://firebase.google.com/docs/auth
-4. React Documentation, *"React 19 Architecture, Hooks, and Component Lifecycles"*, Meta Platforms, Inc., 2026. Available: https://react.dev/
-5. TypeScript Documentation, *"Static Type Checking and Interface Design"*, Microsoft Corporation, 2026. Available: https://www.typescriptlang.org/
-6. Tailwind CSS Documentation, *"Utility-First Modern Web Styling"*, Tailwind Labs, 2026. Available: https://tailwindcss.com/
-7. Vite Documentation, *"Next Generation Frontend Tooling"*, Vitejs.dev, 2026. Available: https://vite.dev/
-8. Recharts Documentation, *"Redefined Chart Library Built with React and D3"*, 2026. Available: https://recharts.org/
-
----
-
-## 28. APPENDIX
-
-### 28.1 Security Rules Specification
-```javascript
-rules_version = '2';
-service cloud.firestore {
-  match /databases/{database}/documents {
-    match /{document=**} {
-      allow read, write: if false;
-    }
-
-    function isSignedIn() {
-      return request.auth != null;
-    }
-
-    function isValidUser(data) {
-      return data.uid == request.auth.uid &&
-        data.email is string &&
-        data.email.size() <= 254 &&
-        (!('displayName' in data) || (data.displayName is string && data.displayName.size() <= 100));
-    }
-
-    function isValidTask(data) {
-      return data.userId == request.auth.uid &&
-        data.title is string &&
-        data.title.size() >= 1 &&
-        data.title.size() <= 120 &&
-        (!('description' in data) || (data.description is string && data.description.size() <= 1000)) &&
-        data.status in ['TODO', 'IN_PROGRESS', 'COMPLETED'] &&
-        data.priority in ['LOW', 'MEDIUM', 'HIGH'] &&
-        data.category in ['Personal', 'College', 'Work', 'Health', 'Finance', 'Other'] &&
-        data.dueDate is string &&
-        data.dueDate.size() <= 30;
-    }
-
-    match /users/{userId} {
-      allow get: if isSignedIn() && request.auth.uid == userId;
-      allow list: if false;
-      allow create, update: if isSignedIn() && request.auth.uid == userId && isValidUser(request.resource.data);
-      allow delete: if isSignedIn() && request.auth.uid == userId;
-    }
-
-    match /tasks/{taskId} {
-      allow get: if isSignedIn() && resource.data.userId == request.auth.uid;
-      allow list: if isSignedIn() && resource.data.userId == request.auth.uid;
-      allow create: if isSignedIn() && isValidTask(request.resource.data);
-      allow update: if isSignedIn() && resource.data.userId == request.auth.uid && isValidTask(request.resource.data);
-      allow delete: if isSignedIn() && resource.data.userId == request.auth.uid;
-    }
-  }
-}
-```
-
-### 28.2 Sample JSON Document Schema
-```json
-{
-  "id": "abc123taskDocId",
-  "userId": "TLhIlJFyiGcZS2jzK6jUxmcdclH2",
-  "title": "Complete DNN assignment",
-  "description": "Prepare Unit 4 answers on Deep Neural Networks and hyperparameter tuning.",
-  "status": "IN_PROGRESS",
-  "priority": "HIGH",
-  "category": "College",
-  "dueDate": "2026-10-15",
-  "createdAt": "2026-10-06T23:00:00.000Z",
-  "updatedAt": "2026-10-07T08:00:00.000Z",
-  "completedAt": null
-}
-```
+1. Google AI Studio Documentation, *"Prompt Engineering, Rapid Prototyping, and Developer Workflows"*, Google Cloud Platform, 2026. Available: https://ai.google.dev/
+2. Firebase Documentation, *"Cloud Firestore NoSQL Database and Authentication Overview"*, Google LLC, 2026. Available: https://firebase.google.com/docs
+3. React Documentation, *"Building User Interfaces with React Components and Hooks"*, Meta Platforms, Inc., 2026. Available: https://react.dev/
+4. TypeScript Documentation, *"TypeScript Language Specification and Type Safety"*, Microsoft Corporation, 2026. Available: https://www.typescriptlang.org/
+5. Tailwind CSS Documentation, *"Utility-First Modern CSS Framework"*, Tailwind Labs, 2026. Available: https://tailwindcss.com/
+6. Vite Documentation, *"Next Generation Frontend Tooling and Build Architecture"*, Vitejs.dev, 2026. Available: https://vite.dev/
